@@ -22,6 +22,11 @@
 
   <title>flutter_master</title>
   <link rel="manifest" href="manifest.json">
+
+  <script src="assets/pdf.js"></script>
+  <script>
+    pdfjsLib.GlobalWorkerOptions.workerSrc = 'assets/pdf.worker.js';
+  </script>
 </head>
 <body>
   <script src="flutter_bootstrap.js" async></script>
