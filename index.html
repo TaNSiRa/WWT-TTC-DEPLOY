@@ -23,10 +23,13 @@
   <title>flutter_master</title>
   <link rel="manifest" href="manifest.json">
 
-  <script src="assets/pdf.js"></script>
+  <!-- เพิ่ม meta tag นี้ -->
+  <meta http-equiv="Content-Security-Policy" 
+        content="default-src * 'unsafe-inline' 'unsafe-eval' data: blob:;">
+  <!-- <script src="assets/pdf.js"></script>
   <script>
     pdfjsLib.GlobalWorkerOptions.workerSrc = 'assets/pdf.worker.js';
-  </script>
+  </script> -->
 </head>
 <body>
   <script src="flutter_bootstrap.js" async></script>
