@@ -148395,7 +148395,7 @@ A.RB.prototype={
 a2(){return new A.ak7(A.a([],t.Te),A.a([],t.zw))}}
 A.ak7.prototype={
 au(){this.aJ()
-$.fZ="TEST PAGE"
+$.fZ="MAIN PAGE"
 $.c_3=$.c_2=!1
 if($.io==="BANGPOO")$.c_2=!0
 else $.c_3=!0
