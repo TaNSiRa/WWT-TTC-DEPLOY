@@ -1020,9 +1020,11 @@ benchmark
 boringssl
 clock
 cpu_features
+decimal
 fake_async
 flatbuffers
 gtest-parallel
+rational
 spirv-cross
 spirv-tools
 swiftshader
