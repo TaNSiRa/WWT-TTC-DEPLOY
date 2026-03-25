@@ -148395,7 +148395,7 @@ A.RB.prototype={
 a2(){return new A.ak7(A.a([],t.Te),A.a([],t.zw))}}
 A.ak7.prototype={
 au(){this.aJ()
-$.fZ="MAIN PAGE"
+$.fZ="TEST PAGE"
 $.c_3=$.c_2=!1
 if($.io==="BANGPOO")$.c_2=!0
 else $.c_3=!0
@@ -148411,7 +148411,7 @@ o=$.c7I()
 return A.fE(m,B.aA,A.bR(A.by(A.a6(A.a([new A.a6w($.c_4,n.d,n.e,new A.bBe(n,p),new A.a6v(s,new A.bBa(),q),new A.bBb(n),m),B.S,new A.aaT($.c_5,n.r,n.w,new A.bBf(n,p),new A.aaS(r,new A.bBc(),q),new A.bBd(n),m)],t.p),B.j,m,B.i,B.f,0,B.n),m,m),o,B.B,B.c2,m,m,m,!1,B.M),m,m)}}
 A.bBa.prototype={
 $1(a){var s
-$.bM="test"
+$.bM="MAIN PAGE"
 s=a.cx
 if(s==="BOD"){$.aNz=a.k4
 $.aNy=s
