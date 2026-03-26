@@ -148289,26 +148289,27 @@ for(s=J.A(a),r=0;r<s.gq(a);++r)if(s.h(a,r).ec.length===0&&s.h(a,r).dO.length===0
 return!0},
 $S:326}
 A.b5a.prototype={
-$3$datain$rowIndex$selectedIndex(a,b,c){var s,r,q,p,o,n,m=this.a,l=m.d[b]
-if(c!=null){s=J.A(l)
-s=s.h(l,8).length!==0&&s.h(l,10).length!==0&&J.c(a,c).gGA().length!==0}else s=!1
-r=J.A(l)
-if(s){q=A.y(r.h(l,10))
-p=A.y(J.c(m.d[3],10))
+$3$datain$rowIndex$selectedIndex(a,b,c){var s,r,q,p,o,n,m,l=this.a,k=l.d[b]
+if(c!=null){s=J.A(k)
+s=s.h(k,8).length!==0&&s.h(k,10).length!==0&&J.c(a,c).gGA().length!==0}else s=!1
+r=J.A(k)
+if(s){q=A.y(r.h(k,10))
+p=A.y(J.c(l.d[3],10))
 o=A.y(J.c(a,c).gGA())
 if(q<0)q=0
 if(p<0)p=0
-if(o<0)o=0
-s=q-p-(o-p)
-if(s*A.y(r.h(l,8))<m.ga9()){r.m(l,11,"< "+A.p(m.ga9()))
-r.m(l,12,"")}else{r.m(l,11,B.b.t(s*A.y(r.h(l,8)),m.gY()))
-s=A.y(r.h(l,11))
-n=J.c(m.a.c,0)
-r.m(l,12,B.b.t(s/A.aZ(n.cb,1000)*100,2))}}else{r.m(l,11,"")
-r.m(l,12,"")}if(J.c(m.d[5],11).length!==0&&J.c(m.d[6],11).length!==0){s=J.c(m.d[5],11)!=="< "+A.p(m.ga9())&&J.c(m.d[6],11)!=="< "+A.p(m.ga9())
-r=m.d
-if(s)J.M(r[7],12,B.b.t(Math.abs((A.y(J.c(r[5],11))-A.y(J.c(m.d[6],11)))/((A.y(J.c(m.d[5],11))+A.y(J.c(m.d[6],11)))/2)*100),2))
-else J.M(r[7],12,"")}else J.M(m.d[7],12,"")},
+n=(o<0?0:o)-p
+if(n<0)n=0
+s=q-p-n
+if(s*A.y(r.h(k,8))<l.ga9()){r.m(k,11,"< "+A.p(l.ga9()))
+r.m(k,12,"")}else{r.m(k,11,B.b.t(s*A.y(r.h(k,8)),l.gY()))
+s=A.y(r.h(k,11))
+m=J.c(l.a.c,0)
+r.m(k,12,B.b.t(s/A.aZ(m.cb,1000)*100,2))}}else{r.m(k,11,"")
+r.m(k,12,"")}if(J.c(l.d[5],11).length!==0&&J.c(l.d[6],11).length!==0){s=J.c(l.d[5],11)!=="< "+A.p(l.ga9())&&J.c(l.d[6],11)!=="< "+A.p(l.ga9())
+r=l.d
+if(s)J.M(r[7],12,B.b.t(Math.abs((A.y(J.c(r[5],11))-A.y(J.c(l.d[6],11)))/((A.y(J.c(l.d[5],11))+A.y(J.c(l.d[6],11)))/2)*100),2))
+else J.M(r[7],12,"")}else J.M(l.d[7],12,"")},
 $S:327}
 A.b5b.prototype={
 $1(a){var s,r,q=J.A(a)
